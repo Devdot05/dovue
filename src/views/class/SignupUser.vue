@@ -24,7 +24,7 @@
   <script setup>
   import { onMounted, ref } from 'vue';
   import { useRouter } from 'vue-router';
-  import useVuelidate from '@Vuelidate/core';
+  // import useVuelidate from '@Vuelidate/core';
 
     const userName = ref('');
     const email = ref('');
